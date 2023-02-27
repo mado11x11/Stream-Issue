@@ -5,10 +5,10 @@ public class StreamIssue {
         List<String> names = List.of("3user", "2user", "1user");
 
         // filter・toListの例文
-        List<String> resulFilter = names.stream()
+        List<String> resultFilter = names.stream()
                 .filter(name -> name.contains("2"))
                 .toList();
-        System.out.println("resultFilter : " + resulFilter);
+        System.out.println("resultFilter : " + resultFilter);
 
         // sortedの例文
         List<String> resultSored = names.stream().
